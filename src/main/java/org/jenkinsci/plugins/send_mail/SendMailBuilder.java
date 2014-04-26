@@ -130,7 +130,7 @@ public class SendMailBuilder extends Builder {
             msg.setRecipients(RecipientType.TO, toInternetAddresses(listener, env.expand(tos), charset));
             msg.setRecipients(RecipientType.CC, toInternetAddresses(listener, env.expand(ccs), charset));
             msg.setRecipients(RecipientType.BCC, toInternetAddresses(listener, env.expand(bccs), charset));
-            msg.setSubject(env.expand(subject));
+            msg.setSubject(env.expand(subject), charset);
             msg.setText(env.expand(text), charset);
             Transport.send(msg);
         } catch (final MessagingException e) {
