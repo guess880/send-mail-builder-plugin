@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <name>Send Mail Plugin</name>
+    <name>Send Mail Builder Plugin</name>
 
     <licenses>
         <license>

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package org.jenkinsci.plugins.send_mail;
+package org.jenkinsci.plugins.send_mail_builder;
 
 import hudson.Plugin;
 

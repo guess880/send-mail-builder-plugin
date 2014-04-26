@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.send_mail;
+package org.jenkinsci.plugins.send_mail_builder;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
@@ -11,6 +11,7 @@ import javax.mail.internet.InternetAddress;
 
 import jenkins.model.JenkinsLocationConfiguration;
 
+import org.jenkinsci.plugins.send_mail_builder.SendMailBuilder;
 import org.junit.Rule;
 import org.junit.Test;
 import org.jvnet.hudson.test.JenkinsRule;
